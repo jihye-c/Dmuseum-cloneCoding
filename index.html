@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D MUSEUM | DAELIM MUSEUM</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/response.css">
+  <!-- <link rel="stylesheet" href="./sass/style.css"> -->
+  <!-- <link rel="stylesheet" href="./sass/style.css"> -->
+  <script src="./script/lib/jquery-1.12.4.min.js"></script>
+  <script src="./script/lib/jquery.easing.1.3.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+  <div id="wrap">
+    <ul id="skip">
+      <li><a href="#header" tabindex="0">메뉴 바로가기</a></li>
+      <li><a href="#section1" tabindex="0">메인 슬라이드 바로가기</a></li>
+      <li><a href="#section2" tabindex="0">일정 바로가기</a></li>
+      <li><a href="#section3" tabindex="0">쇼핑 목록 바로가기</a></li>
+      <li><a href="#footer" tabindex="0">하단 바로가기</a></li>
+    </ul>
+    <header id="header">
+      <div class="container">
+        <div class="gap">
+          <div class="wrap">
+            <div class="top-box">
+              <div class="box-gap">
+                <div class="box-wrap">
+                  <nav id="topNav">
+                    <ul>
+                      <li>
+                        <a href="#" title="Login">Login</a>
+                      </li>
+                      <li>
+                        <a href="#" title="Become a member">Become a member</a>
+                      </li>
+                      <li>
+                        <a href="#" title="Notice">Notice</a>
+                      </li>
+                      <li>
+                        <a href="#" title="FAQ">FAQ</a>
+                      </li>
+                      <li>
+                        <a href="#" title="대림문화재단">대림문화재단</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="bot-box">
+              <div class="box-gap">
+                <div class="box-wrap">
+                  <nav id="mainNav">
+                    <ul>
+                      <li class="logo">
+                        <h1><a href="#">
+                          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                          	 viewBox="0 0 45 45" style="enable-background:new 0 0 45 45;" xml:space="preserve">
+                              <style type="text/css">
+                              	.st0{display:none;}
+                              	.st1{display:inline;}
+                              	.st2{fill:#FFFFFF;}
+                                .st3{fill:#111111}
+                              </style>
+                              <g id="Layer_1">
+                              	<g>
+                              		<path class="svg-path st2" d="M22.5,44.16c-12.12,0-21.99-9.72-21.99-21.66c0-11.94,9.86-21.66,21.99-21.66c12.13,0,21.99,9.72,21.99,21.66
+                              			C44.49,34.44,34.63,44.16,22.5,44.16z M22.5,5.43c-9.59,0-17.39,7.66-17.39,17.07c0,9.41,7.8,17.07,17.39,17.07
+                              			c9.59,0,17.39-7.66,17.39-17.07C39.89,13.09,32.09,5.43,22.5,5.43z"/>
+                              		<path class="svg-path st2" d="M29.1,12.96c-1.33-1.03-2.95-1.58-4.62-1.58c-3.57,0-9.62,0-9.62,0v22.55h8.89c2.11,0,4.49-0.36,5.98-1.9
+                              			l0.9-0.92c1.05-1.08,1.3-3.05,1.3-4.58v-7.74C31.94,16.49,30.89,14.34,29.1,12.96z M26.9,27.02c0,2.58-3.24,2.58-3.24,2.58h-3.91
+                              			V15.4c0,0,0.68,0,3.91,0s3.24,2.58,3.24,2.58S26.9,24.44,26.9,27.02z"/>
+                              	</g>
+                              </g>
+                          </svg>
+                        </a></h1>
+                      </li>
+                      <li class="menu on-hide">
+                        <ul>
+                          <li class="main-menu">
+                            <a href="#" class="main-btn" title="VISIT">visit</a>
+                            <div class="sub sub1">
+                              <div class="menu-box">
+                                <div class="menu-wrap">
+                                  <div class="left">
+                                    <ul>
+                                      <li><a href="#">미술관 소개</a></li>
+                                      <li><a href="#">관람안내</a></li>
+                                      <li><a href="#">오시는 길</a></li>
+                                    </ul>
+                                  </div>
+                                  <div class="right">
+                                    <ul>
+                                      <li>
+                                        <div class="col-gap">
+                                          <div class="col-wrap">
+                                            <img src="./img/d-museum.053e2e0e.jpg" alt="">
+                                            <p class="opentime"><span class="open-today">OPEN TODAY</span><span>11:00AM ~ 08:00PM</span></p>
+                                            <p class="address">서울특별시 성동구 왕십리로 83-21,<br>디뮤지엄</p>
+                                          </div>
+                                        </div>
+                                      </li>
+                                      <li>
+                                        <div class="col-gap">
+                                          <div class="col-wrap">
+                                            <img src="./img/daelim.171e3647.jpg" alt="">
+                                            <p class="opentime">We are preparing for a next exhibition</p>
+                                            <p class="address">서울특별시 종로구 자하문로 4길 21,<br>대림미술관</p>
+                                          </div>
+                                        </div>
+                                      </li>
+                                      <li>
+                                        <div class="col-gap">
+                                          <div class="col-wrap">
+                                            <img src="./img/guseulmoa.94790a0a.jpg" alt="">
+                                            <p class="opentime"><span class="open-today">OPEN TODAY</span><span>11:00AM ~ 08:00PM</span></p>
+                                            <p class="address">서울특별시 종로구 종로3길 17 D타워 126호,<br>구슬모아당구장</p>
+                                          </div>
+                                        </div>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="main-menu">
+                            <a href="#" class="main-btn" title="EXHIBITION">EXHIBITION</a>
+                            <div class="sub sub2">
+                              <div class="menu-box">
+                                <ul>
+                                  <li><a href="#">현재 전시</a></li>
+                                  <li><a href="#">지난 전시</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="main-menu">
+                            <a href="#" class="main-btn" title="LEARN">LEARN</a>
+                            <div class="sub sub3">
+                              <div class="menu-box">
+                                <ul>
+                                  <li><a href="#">유아</a></li>
+                                  <li><a href="#">어린이</a></li>
+                                  <li><a href="#">청소년</a></li>
+                                  <li><a href="#">대학생</a></li>
+                                  <li><a href="#">성인</a></li>
+                                  <li><a href="#">교사</a></li>
+                                  <li><a href="#">전시해설</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <a href="#" class="main-btn" title="EVENT">EVENT</a>
+                          </li>
+                          <li>
+                            <a href="#" class="main-btn" title="TICKET">TICKET</a>
+                          </li>
+                          <li>
+                            <a href="#" class="main-btn" title="SHOP">SHOP</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="quick">
+                        <ul>
+                          <li class="on-hide">
+                            <a href="#" title="calender">
+                              <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                              	 viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                              <g>
+                              	<path d="M19.61,2.11V0.23h-1.98v1.88H7.34V0.23H5.36v1.88H0.3v7.27v15.38H24.7V9.39V2.11H19.61z M5.36,4.09v2.26h1.98V4.09h10.29
+                              		v2.26h1.98V4.09h3.11V8.4H2.28V4.09H5.36z M2.28,22.79V10.38h20.44v12.41H2.28z"/>
+                              	<rect x="9.41" y="13.48" width="2.04" height="1.98"/>
+                              	<rect x="13.45" y="13.48" width="2.04" height="1.98"/>
+                              	<rect x="17.6" y="13.48" width="2.04" height="1.98"/>
+                              	<rect x="5.36" y="17.56" width="2.04" height="1.98"/>
+                              	<rect x="9.4" y="17.56" width="2.04" height="1.98"/>
+                              	<rect x="13.49" y="17.56" width="2.04" height="1.98"/>
+                              </g>
+                              </svg>
+                            </a>
+                          </li>
+                          <li class="on-hide">
+                            <a href="#" title="search">
+                              <svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                              	 viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                              <path d="M24.8,23.28l-6.2-6.2c1.42-1.77,2.28-4.02,2.28-6.46c0-5.7-4.64-10.34-10.34-10.34C4.83,0.27,0.2,4.91,0.2,10.61
+                              	c0,5.7,4.64,10.34,10.34,10.34c2.52,0,4.83-0.91,6.63-2.41l6.19,6.19L24.8,23.28z M10.54,18.9c-4.57,0-8.29-3.72-8.29-8.29
+                              	c0-4.57,3.72-8.29,8.29-8.29s8.29,3.72,8.29,8.29C18.82,15.18,15.11,18.9,10.54,18.9z"/>
+                              </svg>
+                            </a>
+                          </li>
+                          <li class="menu-btn">
+                            <a href="#" title="menu">
+                              <svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                              	 viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                              <g>
+                              	<rect x="0.55" y="3.74" width="23.94" height="2"/>
+                              	<rect x="0.55" y="10.79" width="23.94" height="2"/>
+                              	<rect x="9.65" y="17.84" width="14.84" height="2"/>
+                              </g>
+                              </svg>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <section id="section1">
+        <div class="container">
+          <div class="gap">
+            <div class="wrap">
+              <div class="video-area">
+                <div class="content">
+                  <div class="info-box">
+                    <ul>
+                      <li>
+                        <span>디뮤지엄</span>
+                      </li>
+                      <li>
+                        <span>2022.03.16 ~ 2022.10.30</span>
+                      </li>
+                      <li>
+                        <h3>Romantic Days</h3>
+                      </li>
+                      <li>
+                        <h2>어쨌든, 사랑</h2>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="button-box">
+                    <a href="#">자세히보기</a>
+                    <a href="#">예매하기</a>
+                  </div>
+                  <div class="page-box">
+                    <span class="now-page">01</span>
+                    <span>/</span>
+                    <span class="total-page">01</span>
+                  </div>
+                </div>
+                <div class="bg">
+                  <div class="slide slide1"></div>
+                  <div class="slide slide2"></div>
+                  <div class="slide slide3"></div>
+                </div>
+              </div>
+              <div class="info-area">
+                <div class="scroll-down">
+                  <span>SCROLL<br>DOWN</span>
+                  <i></i>
+                </div>
+                <ul>
+                  <li>
+                    <span><i class="material-icons">access_time</i>오늘 운영시간</span>
+                  </li>
+                  <li>
+                    <span>디뮤지엄</span>
+                    <span class="time">11:00AM  ~ 20:00PM</span>
+                  </li>
+                  <li>
+                    <span>대림미술관</span>
+                    <span>전시 준비 중입니다</span>
+                  </li>
+                  <li>
+                    <span>구슬모아당구장</span>
+                    <span class="time">11:00AM  ~ 20:00PM</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section2">
+        <div class="container">
+          <div class="gap">
+            <div class="wrap">
+              <h2>What's<br> on</h2>
+              <div class="content-area">
+                <div class="info-box">
+                  <div class="top">
+                    <p class="slide-category">공연</p>
+                    <p class="slide-title"> 디뮤지엄 선셋 라이브 : oceanfromtheblue</p>
+                  </div>
+                  <div class="bot">
+                    <span class="period">2022.06.04 SAT 6PM</span>
+                    <span class="place">디뮤지엄</span>
+                  </div>
+                  <div class="button">
+                    <a href="#">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="slide-box">
+                  <div class="slide-container">
+                    <div class="slide-view">
+                      <div class="slide-wrap">
+                        <div class="slide slide1"></div>
+                        <div class="slide slide2"></div>
+                        <div class="slide slide3"></div>
+                        <div class="slide slide4"></div>
+                        <div class="slide slide5"></div>
+                        <div class="slide slide6"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page-box">
+                    <ul>
+                      <li><a href="#" class="sec2-prev-btn"><i class="material-icons">arrow_back</i></a></li>
+                      <li><span class="now-page">01</span></li>
+                      <li><span>/</span></li>
+                      <li><span class="total-page">06</span></li>
+                      <li><a href="#" class="sec2-next-btn"><i class="material-icons">arrow_forward</i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section3">
+        <div class="container">
+          <div class="gap">
+            <div class="wrap">
+              <div class="title-area">
+                <h2>Shop</h2>
+                <ul>
+                  <li>
+                    <a href="#" class="shop-btn on">EXHIBITION GOODS</a>
+                  </li>
+                  <li>
+                    <a href="#" class="shop-btn">PRINTS</a>
+                  </li>
+                  <li>
+                    <a href="#" class="shop-btn">EDITIONS</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="gallery-area">
+                <div class="gallery-box">
+                  <ul>
+                    <li>
+                      <div class="col-gap">
+                        <div class="col-wrap">
+                          <a href="#">
+                            <div class="img-box box1"></div>
+                            <h3 class="box1-title">[어쨌든, 사랑] 컨페티 폭죽카드</h3>
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="col-gap">
+                        <div class="col-wrap">
+                          <a href="#">
+                            <div class="img-box box2"></div>
+                            <h3 class="box2-title">[어쨌든, 사랑] 로맨틱 메시지 연필 세트</h3>
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="col-gap">
+                        <div class="col-wrap">
+                          <a href="#">
+                            <div class="img-box box3"></div>
+                            <h3 class="box3-title">[굿즈모아선물의집] 소맥잔세트 2종 (띠로리, 김수진&김수현)</h3>
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="button-box">
+                  <a href="#">쇼핑하기<i class="fa fa-external-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="container">
+        <div class="gap">
+          <div class="wrap">
+            <div class="top-area">
+              <ul>
+                <li>
+                  <div class="col-gap">
+                    <div class="col-wrap">
+                      <h2>DAELIM<br>CULTURAL<br>FOUNDATION</h2>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="col-gap">
+                    <div class="col-wrap">
+                      <div class="img-box">
+                        <img class="dmuseum" src="./img/logo_dmuseum.png" alt="">
+                      </div>
+                      <address>
+                        <span class="address">서울특별시 성동구 왕십리로 83-21. 디뮤지엄</span>
+                        <span class="tel">T. 02.6233.7200</span>
+                      </address>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="col-gap">
+                    <div class="col-wrap">
+                      <div class="img-box">
+                        <img class="daelim" src="./img/logo_daelim.png" alt="">
+                      </div>
+                      <address>
+                        <span class="address">서울특별시 종로구 자하문로4길 21, 대림미술관</span>
+                        <span class="tel">T. 02.720.0667</span>
+                        <span class="tel">F. 02.720.0665</span>
+                      </address>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="col-gap">
+                    <div class="col-wrap">
+                      <div class="img-box">
+                        <img class="gusuel" src="./img/logo.gusuel.png" alt="">
+                      </div>
+                      <address>
+                        <span class="address">서울특별시 종로구 종로3길 17D타워 126호, 구슬모아당구장</span>
+                        <span class="tel">T. 070.4457.1016</span>
+                      </address>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="col-gap">
+                    <div class="col-wrap">
+                      <div class="icon-box">
+                        <span><a href="#" title="daelim insta"><i class="fa fa-instagram"></i></a></span>
+                        <span><a href="#" title="daelim youtube"><i class="fa fa-youtube-play"></i></a></span>
+                      </div>
+                      <div class="hotlink-box">
+                        <ul>
+                          <li><a href="#">채용<i class="fa fa-external-link"></i></a></li>
+                          <li><a href="#">대관·제휴문의</a></li>
+                          <li><a href="#">SITEMAP</a></li>
+                          <li><a href="#">대림문화재단 소개<i class="fa fa-external-link"></i></a></li>
+                          <li><a href="#">문화체육관광부<i class="fa fa-external-link"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="bot-area">
+              <ul>
+                <li>
+                  <ul>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><i>|</i></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><i>|</i></li>
+                    <li><a href="#">영상정보처리기기 운영·관리방침</a></li>
+                  </ul>
+                </li>
+                <li>                  
+                  <span>(재)대림문화재단</span>
+                  <i>|</i>
+                  <span>대표자: 이해욱</span>
+                  <i>|</i>
+                  <span>서울특별시 종로구 자하문로4길 21(통의동 35-1)</span>
+                  <i>|</i>
+                  <span>사업자등록번호: 305-82-09028</span>
+                  <br>
+                  <span>통신판매업신고번호: 2020-서울종로-0013</span>
+                  <i>|</i>
+                  <span>info@daelimmuseum.org</span>
+                </li>
+                <li>
+                  <p>© 2022 BY <strong>DAELIM CULTURAL FOUNDATION</strong> ALL RIGHT RESERVED.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="other">
+      <div class="container">
+        <div class="gap">
+          <div class="wrap">
+            <div class="float">
+              <ul>
+                <li>
+                  <a href="#"><img src="./img/floating-book-ticket.da0fd8c6.png" alt=""></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./img/floating-join-dgrew.cd70798d.png" alt=""></a>
+                </li>
+              </ul>
+            </div>
+            <div class="gotop">
+              <a href="#" class="gotop-btn">
+                <span>
+                  <img src="./img/icon_arrow.png" alt="">
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="./script/dmuseum.js"></script>
+</body>
+</html>
+
+
+
